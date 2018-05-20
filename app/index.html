@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>SmartQ</title>
+
+        <!-- build:css ../dist/smartq.min.css -->
+        <link href="../dist/css/style/index.css" rel = "stylesheet" type = "text/css">
+        <!-- endbuild -->
+
+        <!-- build:js ../dist/vendor.min.js -->
+        <script src="../node_modules/angular/angular.min.js"></script>
+        <!-- endbuild -->
+    </head>
+    <body ng-app="mainApp" ng-controller="mainController">
+
+         <!-- build:js ../dist/smartq.min.js -->
+        <script src="./app.js"></script>
+        <script src="./services/market.service.js"></script>
+        <!-- endbuild -->
+    </body>
+</html>

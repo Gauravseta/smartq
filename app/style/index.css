@@ -1,0 +1,42 @@
+html,body {
+    height:100%;
+}
+
+body {
+    margin: 0px 4px;
+    background-color: rgb(16,29,41);
+}
+
+.row {
+    display:flex;
+    flex-wrap: wrap;
+}
+.column {
+    display:flex;
+    flex-direction: column;
+}
+.space-around {
+    justify-content: space-around;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.center {
+    justify-content: center;
+}
+
+.flex {
+    flex:1;
+}
+
+.table {
+    border-collapse: collapse;
+}
+.table tr {
+    color:black;
+}
+.table tr th,.table tr td {
+    padding:12px;
+

@@ -1,0 +1,32 @@
+{
+  "name": "smartqmenu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gauravseta/smartq.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "express": "^4.15.4",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-useref": "^3.1.5",
+    "http": "0.0.0",
+    "run-sequence": "^2.2.1"
+  },
+  "devDependencies": {
+    "angular": "^1.6.6",
+    "express": "^4.15.4",
+    "gulp": "^3.9.1"
+  }
+}
